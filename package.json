@@ -6,14 +6,19 @@
     "author": "Ben Keys (https://github.com/bkeys818)",
     "license": "MIT",
     "scripts": {
-        "test": "exit 0"
+        "test": "exit 0",
+        "prepare": "husky install"
     },
     "main": "dist/index.js",
     "devDependencies": {
         "eslint": "^8.5.0",
         "eslint-config-prettier": "^8.3.0",
         "eslint-plugin-prettier": "^4.0.0",
-        "prettier": "^2.5.1",
-        "husky": "^7.0.0"
+        "husky": "^7.0.0",
+        "lint-staged": ">=10",
+        "prettier": "^2.5.1"
+    },
+    "lint-staged": {
+        "*.js": "eslint --cache --fix"
     }
 }
