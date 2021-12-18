@@ -1,15 +1,15 @@
 {
-  "name": "package-template",
-  "version": "0.0.0",
-  "description": "A javascript package template",
-  "repository": "https://github.com/bkeys818/package-template.git",
-  "author": "Ben Keys (https://github.com/bkeys818)",
-  "license": "MIT",
-  "scripts": {
-    "test": "exit 0"
-  },
-  "main": "dist/index.js",
-  "devDependencies": {
-    "prettier": "^2.5.1"
-  }
+    "name": "package-template",
+    "version": "0.0.0",
+    "description": "A javascript package template",
+    "repository": "https://github.com/bkeys818/package-template.git",
+    "author": "Ben Keys (https://github.com/bkeys818)",
+    "license": "MIT",
+    "scripts": {
+        "test": "exit 0"
+    },
+    "main": "dist/index.js",
+    "devDependencies": {
+        "prettier": "^2.5.1"
+    }
 }
