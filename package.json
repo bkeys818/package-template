@@ -8,5 +8,8 @@
   "scripts": {
     "test": "exit 0"
   },
-  "main": "dist/index.js"
+  "main": "dist/index.js",
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  }
 }
